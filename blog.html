@@ -37,8 +37,8 @@
                 <img src="./assets/blog-image.jpg" alt="blue and white sofa with a painting above it">
             </div>  <!-- end .blogImgContainer -->
             <h2> FINDING THE RIGHT PIECES FOR NEW SPACE </h2>
-            <p> Monday, October 5th, 2019 by <span>Saron</span>  
-            </p>
+            <h4> Monday, October 5th, 2019 by <span>Saron</span>   </h4> 
+            
            
             <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis ea itaque est officia molestias eligendi a quam, quidem, laudantium sit tempore asperiores nihil sed nulla pariatur atque quisquam facilis! Quasi. </p>
            
@@ -51,11 +51,11 @@
 
         <!-- sidebar -->
 
-        <div class="sidebar">
+        <aside class="sidebar">
             <div class="sidebarImgContainer">
                 <img src="./assets/blog-post-image.jpg" alt="brown hanging ceiling light">
             </div>  <!-- end .sidebarImgContainer -->
-        </div>  <!-- end .sidebar -->
+        </aside>   <!-- end .sidebar -->
 
         <!-- sidebar content -->
         <div class="sidebarContent">
@@ -63,7 +63,7 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim in laudantium ipsam veniam facilis ipsum aspernatur quasi sequi corrupti</p>
             <h3>RECENT POSTS</h3>
             <ul> 
-                <li> Lorem ipsum dolor sit. </li>
+                <li>Lorem ipsum dolor sit.</li>
                 <li>Lorem ipsum dolor sit.</li>
                 <li>Lorem ipsum dolor sit.</li>
                 <li>Lorem ipsum dolor sit.</li>
@@ -74,9 +74,63 @@
     <!-- Comments section -->
     <section class="comments wrapper">
         <h2>COMMENTS:</h2>
-        
 
+        <!-- top Comment -->
+
+        <div class="topCommentFlex">
+            <div class="topCommentImgContainer">
+                <img src="./assets/comment-image.jpg" alt="photo of a man with trees in the background">
+            </div>  <!-- end. topCommentImgContainer -->
+
+            <div class="topCommentContent">
+                <h4>TUESDAY OCTOBER 9TH, 2019 BY DAVIN</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt, porro. Vel nihil alias perspiciatis corporis laboriosam numquam adipisci, sed accusantium, odit tempore dolor amet eos cum excepturi unde provident atque.</p>
+            </div>  <!-- end .topCommentContent -->
+        </div>  <!-- end.topCommentFlex -->
+
+        <!-- bottom comment -->
+
+        <div class="bottomCommentFlex">
+            <div class="bottomCommentImgContainer">
+                <img src="./assets/comment-image2.jpg" alt="image of two zebras and one of them is looking at the camera">
+            </div>  <!-- end .bottomCommentImgContainer -->
+
+            <div class="bottomCommentContent">
+                <h4>WEDNESDAY OCTOBER 10TH, 2019 BY LISA</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt, porro. Vel nihil alias perspiciatis corporis laboriosam numquam adipisci, sed accusantium, odit tempore dolor amet eos cum excepturi unde provident atque.</p>
+            </div>  <!-- end .bottomCommentContent -->
+        </div>  <!-- end .bottomCommentContent -->
     </section>
-    </main>
+    
+    <!-- comments form -->
+
+    <section>
+        <div class="commentBox wrapper">
+            <form action="#">
+                <!-- name -->
+                <label for="name"></label> 
+                <input type="text" placeholder="NAME"> 
+
+                <!-- email -->
+                <label for="email"></label>
+                <input type="email" placeholder="EMAIL ADDRESS">
+                
+                <!-- comment -->
+                
+                <label for="comment"></label>
+                <input type="text" placeholder="COMMENT">
+                <button type="submit"> POST COMMENT</button>
+            </form>
+        </div>
+    </section>
+</main>
+
+<!-- footer -->
+
+<footer>
+    <div class="wrapper">
+        <p>Copyright 2019 Hackeryou</p>
+    </div>
+</footer>
 </body>
 </html>
