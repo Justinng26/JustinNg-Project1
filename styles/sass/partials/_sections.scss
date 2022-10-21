@@ -51,3 +51,31 @@
 .leftLinks, .rightLinks{
     padding: 0 50px;
 }
+
+// new locations/ new programs
+
+.offersFlex{
+    display: flex;
+    width: 100%;
+}
+
+.groupPrograms{
+    padding: left 200px; ;
+}
+
+.newLocations{
+    padding-right: 200px;
+}
+
+.newLocationsContent{
+    text-align: end;
+    padding: 20px 0 30px 100px;;
+
+    p{
+        text-align:unset;
+    }
+}
+
+.groupProgramsContent{
+    padding: 20px 100px 30px 0;
+}
