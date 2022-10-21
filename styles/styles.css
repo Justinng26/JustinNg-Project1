@@ -294,17 +294,19 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 30px 70px;
-  width: 100%;
+  padding: 150px 70px;
 }
 
 .discoverContainer {
-  padding-bottom: 250px;
+  width: 70%;
+}
+.discoverContainer p {
+  padding-right: 90px;
 }
 
 .discoverImg {
-  height: 600px;
-  width: 600px;
-  margin-top: 200px;
-  margin-left: 150px;
+  width: 30%;
+}
+.discoverImg img {
+  padding-top: 90px;
 }
