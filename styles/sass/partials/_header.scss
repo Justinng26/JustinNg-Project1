@@ -9,6 +9,17 @@
     height: 100vh;
     background-size: cover;
     background-position: center;
+
+    
+    // h1{
+    //     font-size: 2.5rem;
+    //     padding-left: 150px;
+    //     padding-top: 50px;
+
+    //     span{
+    //         display: block;
+    //     }
+    // }
 }
 
 .mainHeaderFlex{
@@ -17,17 +28,20 @@
  }
 
  .headerImgContainer{
-    width: 750px;
-    height: 600px;
-    padding-top: 150px;
+    width: 55%;
+    // width: 750px;
+    // height: 600px;
+    height: 55%;
+    padding-top: 30px;
     padding-right: 75px
     
     img{
-        max-width: 55%;
+        max-width: 100%;
         display: block;
          
     }
  }
+
 
 
 
