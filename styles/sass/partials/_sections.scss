@@ -12,14 +12,42 @@
 
 .discoverContainer{
    width: 70%;
-        p{
-            padding-right: 90px;
+    
+   p{
+    padding-right: 90px;
         }
 }
 
 .discoverImg{
     width:30%;
-        img{
-            padding-top:90px;
+
+    img{
+        padding-top:90px;
         }
+}
+
+// gallery section
+
+.galleryFlex{
+    display: flex;
+    flex-wrap: wrap;
+
+    li{
+        width: calc((100% / 3) - 40px);
+        margin: 0 20px 20px;
+    }
+}
+
+// links section/
+
+.linksFlex{
+    display: flex;
+    width: 100%;
+    padding: 40px 100px;
+
+
+}
+
+.leftLinks, .rightLinks{
+    padding: 0 50px;
 }

@@ -310,3 +310,27 @@ img {
 .discoverImg img {
   padding-top: 90px;
 }
+
+.galleryFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.galleryFlex li {
+  width: calc(33.3333333333% - 40px);
+  margin: 0 20px 20px;
+}
+
+.linksFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  padding: 40px 100px;
+}
+
+.leftLinks, .rightLinks {
+  padding: 0 50px;
+}
