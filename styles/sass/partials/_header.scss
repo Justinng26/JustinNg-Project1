@@ -1,0 +1,35 @@
+@use "./global/variables" ;
+
+
+// main page header/ 
+
+
+.mainHeader{
+    background-image: url(../assets/header-home.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.mainHeaderFlex{
+     display: flex;
+    justify-content: space-between;
+ }
+
+ .headerImgContainer{
+    width: 750px;
+    height: 600px;
+    padding-top: 150px;
+    padding-right: 75px
+    
+    img{
+        max-width: 55%;
+        display: block;
+         
+    }
+ }
+
+
+
+
+// contact page header
