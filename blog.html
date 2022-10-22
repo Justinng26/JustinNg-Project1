@@ -110,21 +110,29 @@
     <!-- comments form -->
 
     <section>
-        <div class="commentBox wrapper">
-            <form action="#">
-                <!-- name -->
-                <label for="name"></label> 
-                <input type="text" placeholder="NAME"> 
+        <div class="wrapper">
 
-                <!-- email -->
-                <label for="email"></label>
-                <input type="email" placeholder="EMAIL ADDRESS">
+            <form action="#" class="contactForm" name="contactForm">
+
+                <div class="commentBox">
+                    <!-- name -->
+                    <label for="name">Name</label> 
+                    <input type="text" id="name" placeholder="NAME"> 
+
+                    <!-- email -->
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="EMAIL ADDRESS">
+                </div>
+                
                 
                 <!-- comment -->
                 
-                <label for="comment"></label>
-                <input type="text" placeholder="COMMENT">
-                <button type="submit"> POST COMMENT</button>
+                   <label for="comment">Comment</label>
+                <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+
+                <button type="submit"> POST COMMENT</button> 
+                
+                
             </form>
         </div>
     </section>

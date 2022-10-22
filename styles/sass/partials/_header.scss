@@ -44,7 +44,7 @@
 // blog page header
 
 .blogHeader{
-    background-image: url(../../../assets/blog-image.jpg);
+    background-image: url(../assets/blog-image.jpg);
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -58,4 +58,13 @@
         padding-left: 150px;
     }
 
+}
+
+// contact page header
+
+.contactHeader{
+    background-image: url(../assets/contact-image.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
 }

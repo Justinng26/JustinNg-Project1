@@ -28,10 +28,16 @@
 
 // gallery section
 
+.gallery{
+    background-color: #e0fddf;
+}
+
+
 .galleryFlex{
     display: flex;
     flex-wrap: wrap;
-
+    list-style: none;
+    
     li{
         width: calc((100% / 3) - 40px);
         margin: 0 20px 20px;
@@ -55,6 +61,7 @@
 // new locations/ new programs
 
 .offersFlex{
+    background-color: #e0fddf;
     display: flex;
     width: 100%;
 }
@@ -113,7 +120,8 @@
 // comments section
 
 .comments{
-    padding: 0 300px 0 80px
+    padding: 0 300px 0 80px;
+    background-color: aqua;
 
 }
 
