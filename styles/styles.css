@@ -462,20 +462,35 @@ a {
   width: 100%;
 }
 
-.groupPrograms {
-  padding: left 200px;
-}
-
 .newLocations {
   padding-right: 200px;
 }
 
+.newLocationsImg {
+  position: relative;
+}
+.newLocationsImg img {
+  position: absolute;
+  top: -30px;
+}
+
 .newLocationsContent {
   text-align: end;
-  padding: 20px 0 30px 100px;
+  padding: 350px 0 30px 100px;
 }
 .newLocationsContent p {
   text-align: unset;
+}
+
+.groupPrograms {
+  padding: left 200px;
+}
+
+.groupProgramsImg {
+  position: relative;
+}
+.groupProgramsImg img {
+  position: absolute;
 }
 
 .groupProgramsContent {
