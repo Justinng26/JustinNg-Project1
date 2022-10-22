@@ -23,7 +23,7 @@
 }
 
 .mainHeaderFlex{
-     display: flex;
+    display: flex;
     justify-content: space-between;
  }
 
@@ -41,8 +41,21 @@
     }
  }
 
+// blog page header
 
+.blogHeader{
+    background-image: url(../../../assets/blog-image.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
 
+.blogHeaderFlex, .contactHeaderFlex{
+    display: flex;
+    justify-content: space-between;
+    
+    h3{
+        padding-left: 150px;
+    }
 
-
-// contact page header
+}

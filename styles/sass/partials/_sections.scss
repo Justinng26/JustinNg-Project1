@@ -79,3 +79,33 @@
 .groupProgramsContent{
     padding: 20px 100px 30px 0;
 }
+
+// search by style section
+
+.search{
+    text-align: center;
+    padding: 50px 100px;
+}
+
+// blog sections
+
+.blogFlex{
+    display: flex;
+}
+
+.blog{
+    width: 100%;
+    padding-right: 100px;
+}
+
+.blogContent{
+    padding-left: 150px;
+}
+
+// sidebar
+
+.sidebar{
+    margin-left: 120px;
+    padding: 50px 0;
+    width: 25%;
+}
