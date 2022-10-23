@@ -23,7 +23,7 @@
 
     img{
         padding-top:90px;
-        
+        box-shadow: 30px 30px variables.$brightYellow;
         }
     }
 
@@ -64,7 +64,7 @@
 // new locations/ new programs
 
 .offersFlex{
-    background-color: variables$secondary;
+    background-color: variables.$secondary;
     display: flex;
     width: 100%;
 }
@@ -79,7 +79,7 @@
     img{
         position: absolute;
         top: -30px;
-         box-shadow: 20px 20px variables$brightYellow;
+         box-shadow: 20px 20px variables.$brightYellow;
          
     }
 }
@@ -103,6 +103,7 @@
 
     img{
         position: absolute;
+        box-shadow: -20px 20px variables.$brightYellow;
     }
 }
 
@@ -115,7 +116,11 @@
 .search{
     text-align: center;
     padding: 50px 100px;
+    margin: 80px;
 }
+
+
+// BLOG
 
 // blog sections / comments
 
@@ -126,10 +131,21 @@
 .blog{
     width: 100%;
     padding-right: 100px;
+     position: relative;
+
+    img{
+         position: absolute;
+         top: -180px;
+         width: 85%;
+         box-shadow: 15px 15px variables.$brightYellow;
+    }
 }
 
 .blogContent{
-    padding-left: 150px;
+    padding: 400px 40px 0 150px;
+    box-shadow: 10px 10px variables.$brightYellow;
+    margin-right: 43px;
+    
 }
 
 // sidebar
@@ -138,6 +154,16 @@
     margin-left: 120px;
     padding: 50px 0;
     width: 25%;
+
+    img{
+        box-shadow: -10px 10px variables.$brightYellow;
+    }
+}
+
+.sidebarContent{
+    background-color: variables.$brightYellow;
+    padding: 15px;
+    margin: -10px;
 }
 
 // comments section
@@ -157,3 +183,6 @@
     width: 80%;
     padding-right: 50px;
 }
+
+
+

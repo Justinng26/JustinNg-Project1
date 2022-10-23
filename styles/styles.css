@@ -261,6 +261,22 @@ html {
   font-display: swap;
   src: url(https://fonts.gstatic.com/s/kumaroneoutline/v17/Noao6VH62pyLP0fsrZ-v18wlUEcX9wDsTwqMEA.woff2) format("woff2");
 }
+@font-face {
+  font-family: "Kumar One Outline";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/kumaroneoutline/v17/Noao6VH62pyLP0fsrZ-v18wlUEcX9wD5TwqMEA.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: "Kumar One Outline";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/kumaroneoutline/v17/Noao6VH62pyLP0fsrZ-v18wlUEcX9wD3Two.woff2) format("woff2");
+}
 /* latin-ext */
 @font-face {
   font-family: "Lato";
@@ -302,7 +318,7 @@ html {
 }
 
 h1 {
-  font-family: "Kumar One outline";
+  font-family: "Kumar One Outline";
   font-size: 2.5rem;
   padding-left: 150px;
   padding-top: 50px;
@@ -315,10 +331,15 @@ h2, h3 {
   font-family: "Kumar One";
   font-size: 1.3rem;
 }
+h2 span, h3 span {
+  display: block;
+}
 
-p {
+p, a {
   font-family: "Lato";
   font-size: 1rem;
+  text-decoration: none;
+  color: inherit;
 }
 
 .wrapper {
@@ -332,9 +353,13 @@ img {
   display: block;
 }
 
-a {
-  text-decoration: none;
-  color: inherit;
+button {
+  color: #f5f5f5;
+  background-color: #065635;
+  padding: 15px;
+  font-size: 1rem;
+  font-family: "Kumar One";
+  padding-bottom: 5px;
 }
 
 .mainHeader {
@@ -423,6 +448,8 @@ a {
 }
 .discoverImg img {
   padding-top: 90px;
+  -webkit-box-shadow: 30px 30px #f8fb05;
+          box-shadow: 30px 30px #f8fb05;
 }
 
 .gallery {
@@ -440,6 +467,7 @@ a {
 .galleryFlex li {
   width: calc(33.3333333333% - 40px);
   margin: 0 20px 20px;
+  padding: 40px 0;
 }
 
 .linksFlex {
@@ -472,6 +500,8 @@ a {
 .newLocationsImg img {
   position: absolute;
   top: -30px;
+  -webkit-box-shadow: 20px 20px #f8fb05;
+          box-shadow: 20px 20px #f8fb05;
 }
 
 .newLocationsContent {
@@ -491,6 +521,8 @@ a {
 }
 .groupProgramsImg img {
   position: absolute;
+  -webkit-box-shadow: -20px 20px #f8fb05;
+          box-shadow: -20px 20px #f8fb05;
 }
 
 .groupProgramsContent {
@@ -500,6 +532,7 @@ a {
 .search {
   text-align: center;
   padding: 50px 100px;
+  margin: 80px;
 }
 
 .blogFlex, .topCommentFlex, .bottomCommentFlex {
@@ -511,16 +544,37 @@ a {
 .blog {
   width: 100%;
   padding-right: 100px;
+  position: relative;
+}
+.blog img {
+  position: absolute;
+  top: -180px;
+  width: 85%;
+  -webkit-box-shadow: 15px 15px #f8fb05;
+          box-shadow: 15px 15px #f8fb05;
 }
 
 .blogContent {
-  padding-left: 150px;
+  padding: 400px 40px 0 150px;
+  -webkit-box-shadow: 10px 10px #f8fb05;
+          box-shadow: 10px 10px #f8fb05;
+  margin-right: 43px;
 }
 
 .sidebar {
   margin-left: 120px;
   padding: 50px 0;
   width: 25%;
+}
+.sidebar img {
+  -webkit-box-shadow: -10px 10px #f8fb05;
+          box-shadow: -10px 10px #f8fb05;
+}
+
+.sidebarContent {
+  background-color: #f8fb05;
+  padding: 15px;
+  margin: -10px;
 }
 
 .comments {
