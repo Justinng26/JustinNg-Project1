@@ -426,6 +426,15 @@ button {
 .navBar ul a {
   padding: 0 15px;
 }
+.navBar ul a:hover {
+  border-bottom: 2px solid #f8fb05;
+}
+.navBar ul a:focus {
+  border-bottom: 2px solid #f8fb05;
+}
+.navBar ul a:active {
+  border-bottom: 2px solid #f8fb05;
+}
 
 .discoverFlex {
   display: -webkit-box;
@@ -607,4 +616,33 @@ button {
 .footer p {
   color: white;
   text-align: center;
+}
+
+.contactForm {
+  display: grid;
+  padding: 10px 500px 10px 75px;
+}
+.contactForm input, .contactForm textarea {
+  background: #e0fddf;
+}
+
+.contactFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.wrapper {
+  position: relative;
+}
+.wrapper .contactAbsolute {
+  position: absolute;
+  top: -150px;
+  left: 150px;
+  display: grid;
+  width: 750px;
+  height: 400px;
+  background-color: #f5f5f5;
+  -webkit-box-shadow: 20px 20px #f8fb05;
+          box-shadow: 20px 20px #f8fb05;
 }

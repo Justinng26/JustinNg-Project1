@@ -10,7 +10,20 @@
         a{
             padding: 0 15px;
 
-            &:hover
+            &:hover {
+                border-bottom: 2px solid variables.$brightYellow;
+            }
+
+            &:focus{
+                border-bottom:2px solid variables.$brightYellow;
+
+            }
+
+            &:active{
+                border-bottom:2px solid variables.$brightYellow;
+
+
+            }
         }
     }
 }
