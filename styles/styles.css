@@ -335,11 +335,12 @@ h2 span, h3 span {
   display: block;
 }
 
-p, a {
+p, a, h4 {
   font-family: "Lato";
   font-size: 1rem;
   text-decoration: none;
   color: inherit;
+  line-height: 1.5;
 }
 
 .wrapper {
@@ -438,6 +439,7 @@ button {
 
 .discoverContainer {
   width: 70%;
+  padding-top: 70px;
 }
 .discoverContainer p {
   padding-right: 90px;
@@ -448,8 +450,8 @@ button {
 }
 .discoverImg img {
   padding-top: 90px;
-  -webkit-box-shadow: 30px 30px #f8fb05;
-          box-shadow: 30px 30px #f8fb05;
+  -webkit-box-shadow: -15px 15px #f8fb05;
+          box-shadow: -15px 15px #f8fb05;
 }
 
 .gallery {
@@ -535,6 +537,10 @@ button {
   margin: 80px;
 }
 
+.mainBlog, .mainContact {
+  background: #e0fddf;
+}
+
 .blogFlex, .topCommentFlex, .bottomCommentFlex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -555,16 +561,19 @@ button {
 }
 
 .blogContent {
-  padding: 400px 40px 0 150px;
+  padding: 400px 40px 20px 150px;
   -webkit-box-shadow: 10px 10px #f8fb05;
           box-shadow: 10px 10px #f8fb05;
   margin-right: 43px;
+  margin-bottom: 20px;
+  background: #f5f5f5;
 }
 
 .sidebar {
   margin-left: 120px;
   padding: 50px 0;
   width: 25%;
+  margin-top: 70px;
 }
 .sidebar img {
   -webkit-box-shadow: -10px 10px #f8fb05;
@@ -579,7 +588,6 @@ button {
 
 .comments {
   padding: 0 300px 0 80px;
-  background-color: aqua;
 }
 
 .topCommentImgContainer, .bottomCommentImgContainer {
@@ -590,6 +598,7 @@ button {
 .topCommentContent, .bottomCommentContent {
   width: 80%;
   padding-right: 50px;
+  margin-right: 120px;
 }
 
 .footer {

@@ -12,6 +12,7 @@
 
 .discoverContainer{
    width: 70%;
+   padding-top: 70px;
     
    p{
     padding-right: 90px;
@@ -23,7 +24,7 @@
 
     img{
         padding-top:90px;
-        box-shadow: 30px 30px variables.$brightYellow;
+        box-shadow: -15px 15px variables.$brightYellow;
         }
     }
 
@@ -122,10 +123,15 @@
 
 // BLOG
 
-// blog sections / comments
+// blog sections /
+
+.mainBlog, .mainContact{
+    background: variables.$secondary;
+}
 
 .blogFlex, .topCommentFlex, .bottomCommentFlex{
     display: flex;
+    
 }
 
 .blog{
@@ -142,10 +148,11 @@
 }
 
 .blogContent{
-    padding: 400px 40px 0 150px;
+    padding: 400px 40px 20px 150px;
     box-shadow: 10px 10px variables.$brightYellow;
     margin-right: 43px;
-    
+    margin-bottom: 20px;
+    background: variables.$solidWhite;
 }
 
 // sidebar
@@ -154,6 +161,7 @@
     margin-left: 120px;
     padding: 50px 0;
     width: 25%;
+    margin-top: 70px;
 
     img{
         box-shadow: -10px 10px variables.$brightYellow;
@@ -170,8 +178,6 @@
 
 .comments{
     padding: 0 300px 0 80px;
-    background-color: aqua;
-
 }
 
 .topCommentImgContainer, .bottomCommentImgContainer{
@@ -182,6 +188,7 @@
 .topCommentContent, .bottomCommentContent{
     width: 80%;
     padding-right: 50px;
+    margin-right: 120px;
 }
 
 
