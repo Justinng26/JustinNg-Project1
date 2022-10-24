@@ -363,6 +363,47 @@ button {
   padding-bottom: 5px;
 }
 
+@media (max-width: 1000px) {
+  header .mainHeader img {
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  header h1 {
+    padding-left: 15%;
+  }
+}
+@media (max-width: 976px) {
+  .mainHeader h1 {
+    font-size: 2.2rem;
+  }
+}
+@media (max-width: 928px) {
+  .navBar ul {
+    padding-left: 10px;
+  }
+}
+@media (max-width: 886px) {
+  .mainHeader h1 {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 844px) {
+  .mainHeader {
+    background-size: contain;
+  }
+  .mainHeader h1 {
+    font-size: 1.8rem;
+  }
+  .discoverFlex, .galleryFlex {
+    padding: 10px;
+  }
+  .linksFlex {
+    padding: 30px;
+  }
+  p {
+    font-size: 0.8rem;
+  }
+}
 .mainHeader {
   background-image: url(../assets/header-home.jpg);
   height: 100vh;
