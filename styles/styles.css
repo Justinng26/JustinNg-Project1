@@ -651,6 +651,10 @@ button {
   margin-right: 120px;
 }
 
+.label {
+  padding-right: 100px;
+}
+
 .footer {
   background-color: black;
 }
