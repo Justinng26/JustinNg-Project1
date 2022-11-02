@@ -133,6 +133,10 @@
 
                 <button type="submit"> POST COMMENT</button> 
             </form>
+
+            <ul>
+                <!-- pop up message appears here -->
+            </ul>
         </div>  <!-- end .wrapper -->
     </section>
 </main>
@@ -144,5 +148,45 @@
         <p>Copyright 2019 Hackeryou</p>
     </div>
 </footer>
+
+<script>
+
+// confirmation message upon submit a comment.
+
+// Steps:
+// Listen for when the comment is submitted.
+// on submit, get the value that the user has typed into their input.
+// display a message that says 'thank you for your comment!'
+
+// store the form element in a variable
+const formEl = document.querySelector('form');
+const textAreaEl = document.querySelector('textArea');
+
+// add event listener to the form element
+formEl.addEventListener('submit', (event) => {
+
+// prevent default behavior of our form
+event.preventDefault()
+
+// create the confirmation message 
+const confirmation = document.createElement("div");
+
+// create the text inside the confirmaton message
+confirmation.innerHTML = 'Thank you for your comment!';
+
+// include a comment after the users submission
+formEl.append(confirmation);
+
+// after the users comment is 'submitted', the text area is cleared.
+textAreaEl.value = "";
+}
+
+);
+
+
+
+
+
+</script>
 </body>
 </html>
